@@ -1,6 +1,7 @@
 # simple-piano-sheets
 Markup language to represent simple piano music sheets, the characteristics it's able to represent are:
-Playing hand, Clef, keysign, time signature, notes (which octave the note is in, it’s length, tone, pitch, length and whether it has an accidental or not), chords, slurs, ties, and rests.
+Playing hand, Clef, keysign, time signature, notes (which octave the note is in, it’s length, tone, pitch, length and whether it has an accidental or not), chords, slurs, ties, and rests. <br />
+This repository contains the productions used for the language, and a C++ program that validates whether a string is valid or not.
 
 ## Rule productions used:
 START -> {CLEF,KEYSIGN,TIMESIG, NEW}{CLEF,KEYSIGN,TIMESIG, NEW} <br />
